@@ -1,0 +1,81 @@
+anatoly@anatoly-VirtualBox:~$ mkdir Игрушки_для_дошколят
+
+anatoly@anatoly-VirtualBox:~$ mkdir Игрушки_для_Школьников
+
+anatoly@anatoly-VirtualBox:~$ cd Игрушки_для_Школьников
+
+anatoly@anatoly-VirtualBox:~/Игрушки_для_Школьников$ > Роботы
+
+anatoly@anatoly-VirtualBox:~/Игрушки_для_Школьников$ > Конструктор
+
+anatoly@anatoly-VirtualBox:~/Игрушки_для_Школьников$ >Настольные_Игры
+
+anatoly@anatoly-VirtualBox:~/Игрушки_для_Школьников$ cd ..
+anatoly@anatoly-VirtualBox:~$ cd Игрушки_для_дошколят
+
+anatoly@anatoly-VirtualBox:~/Игрушки_для_дошколят$ > Мягкие_Игрушки
+
+anatoly@anatoly-VirtualBox:~/Игрушки_для_дошколят$ > Куклы
+
+anatoly@anatoly-VirtualBox:~/Игрушки_для_дошколят$ >Машинки
+
+anatoly@anatoly-VirtualBox:~/Игрушки_для_дошколят$ mkdir Имя_Игрушки
+
+natoly@anatoly-VirtualBox:~/Игрушки_для_дошколят$ cd
+
+anatoly@anatoly-VirtualBox:~$ mkdir Имя_Игрушки
+
+anatoly@anatoly-VirtualBox:~$  mv Игрушки_для_Школьников/ Игрушки_для_дошколят/ Имя_Игрушки/
+
+anatoly@anatoly-VirtualBox:~$ cd Имя_Игрушки
+
+anatoly@anatoly-VirtualBox:~/Имя_Игрушки$ tree
+
+.
+
+├── Игрушки_для_дошколят
+
+│   ├── Имя_Игрушки
+
+│   ├── Куклы
+
+│   ├── Машинки
+
+│   └── Мягкие_Игрушки
+
+└── Игрушки_для_Школьников
+
+    ├── Конструктор
+
+    ├── Настольные_Игры
+
+    └── Роботы
+
+anatoly@anatoly-VirtualBox:~/Имя_Игрушки$
+
+anatoly@anatoly-VirtualBox:~$ mv Имя_Игрушки/ Игрушки
+
+anatoly@anatoly-VirtualBox:~$ ls
+
+anatoly@anatoly-VirtualBox:~$ cd Игрушки
+
+anatoly@anatoly-VirtualBox:~/Игрушки$ /Игрушки$ tree -g
+
+atoly@anatoly-VirtualBox:~/Игрушки$ sudo snap install tree
+
+tree 1.8.0+pkg-3fd6 from 林博仁(Buo-ren, Lin) (brlin) installed
+
+anatoly@anatoly-VirtualBox:~/Игрушки$ sudo snap remove tree
+
+tree removed
+
+anatoly@anatoly-VirtualBox:~/Игрушки$ sudo vi /usr/local/bin/script.sh
+
+anatoly@anatoly-VirtualBox:~/Игрушки$ sudo chmod ugo+x /usr/local/bin/script.sh
+
+anatoly@anatoly-VirtualBox:~/Игрушки$ sudo crontab -e
+    0/3 * * * * /usr/local/bin/script.sh
+crontab: installing new crontab
+
+
+
